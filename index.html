@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FantasyNight | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="image/logo2.png" width="150px"></a>
+            </div>
+        <nav>
+            <ul id="menuitems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="caraorder.html">How To Order</a></li>
+                <li><a href="metodepembayaran.html">Payment Method</a></li>
+            </ul>
+        </nav>
+        <img src="Image/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Give Your Style<br>A New Style!</h1>
+            <p>Stylish doesn't have to be luxurious, what's<br>important is comfort. Praise will come.</p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="Image/poster1-.png">
+        </div>
+    </div>
+       
+    </div>
+</div>
+    
+<!-------- featured categories --------->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="Image/kategori1.png">
+                </div>
+                <div class="col-3">
+                    <img src="Image/kategori2.png">
+                </div>
+                <div class="col-3">
+                    <img src="Image/kategori3.png">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+<!-------- featured products --------->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-detail-kaos1.html"><img src="Image/kaos1-.png"></a>
+                <a href="product-detail-kaos1.html"><h4>FantasyNight T-Shirt Rocky Kaos</h4></a>
+                <p>Rp.69.900</p>
+            </div>
+            <div class="col-4">
+                <a href="product-detail-kaos8.html"><img src="Image/kaos8.png"></a>
+                <a href="product-detail-kaos8.html"><h4>FantasyNight T-Shirt Fantasy Night Kaos</h4></a>
+                <p>Rp.74.900</p>
+            </div>
+            <div class="col-4">
+                <a href="product-detail-kaos4.html"><img src="Image/kaos4-.png"></a>
+                <a href="product-detail-kaos4.html"><h4>FantasyNight T-Shirt Beyond The Eyes Kaos</h4></a>
+                <p>Rp.69.900</p>
+            </div>
+            <div class="col-4">
+                <a href="product-detail-kaos3.html"><img src="Image/kaos3-.png"></a>
+                <a href="product-detail-kaos3.html"><h4>FantasyNight T-Shirt Hope Kaos</h4></a>
+                <p>Rp.69.900</p>
+            </div>
+            <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a href="product-detail-hoodie1.html"><img src="Image/hoodie hitam.png"></a>
+                    <a href="product-detail-hoodie1.html"><h4>FantasyNight Hoodie FNTSYNGHT Hitam Sweater Jumper</h4></a>
+                    <p>Rp.139.900</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-detail-hoodie2.html"><img src="Image/hoodie putih.png"></a>
+                    <a href="product-detail-hoodie2.html"><h4>FantasyNight Hoodie FNTSYNGHT Putih Sweater Jumper</h4></a>
+                    <p>Rp.139.900</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-detail-hoodie3.html"><img src="Image/hoodie cream.png"></a>
+                    <a href="product-detail-hoodie3.html"><h4>FantasyNight Hoodie FNTSYNGHT Cream Sweater Jumper</h4></a>
+                    <p>Rp.139.900</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-detail-hoodie4.html"><img src="Image/hoodie coklat.png"></a>
+                    <a href="product-detail-hoodie4.html"><h4>FantasyNight Hoodie FNTSYNGHT Coklat Sweater Jumper</h4></a>
+                    <p>Rp.139.900</p>
+                </div>
+        </div>
+
+    </div>
+<!-------- footer -------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="Image/logowhitee.png" width="190" height="150">
+                    <p>Our purpose is to make the joy and comfort of dressing sustainably accessible to as many people as possible.</p>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - FantasyNight</p>
+        </div>
+    </div>
+<!--------js for toggle menu-------->
+    <script>
+        var menuitems = document.getElementById("menuitems");
+
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if( menuitems.style.maxHeight = "0px")
+                 {
+                     menuitems.style.maxHeight = "200px";
+                 }
+            else
+                 {
+                     menuitems.style.maxHeight = "0px";
+                 }
+        }
+    </script>
+
+
+
+</body>
+</html>
+    

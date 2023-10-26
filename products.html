@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-witdh, initial-scale=1.0">
+    <title>All Products - FantasyNight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="image/logo2.png" width="150px">
+            </div>
+        <nav>
+            <ul id="menuitems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="caraorder.html">How To Order</a></li>
+                <li><a href="metodepembayaran.html">Payment Method</a></li>
+            </ul>
+        </nav>
+        <img src="Image/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    </div>
+
+    <div class="small-container">
+        
+        <div class="row row-2">
+            <h2>All Products</h2>
+        </div>
+
+
+        <div class="row">
+            <div class="col-4">
+                <a href="product-detail-kaos1.html"><img src="Image/kaos1-.png"></a>
+                <a href="product-detail-kaos1.html"><h4>FantasyNight T-Shirt Rocky Kaos</h4></a>
+                <p>Rp.69.000</p>
+            </div>
+            <div class="col-4">
+                <a href="product-detail-kaos8.html"><img src="Image/kaos8.png"></a>
+                <a href="product-detail-kaos8.html"><h4>FantasyNight T-Shirt Fantasy Night Kaos</h4></a>
+                <p>Rp.74.900</p>
+            </div>
+            <div class="col-4">
+                <a href="product-detail-kaos4.html"><img src="Image/kaos4-.png"></a>
+                <a href="product-detail-kaos4.html"><h4>FantasyNight T-Shirt Beyond The Eyes Kaos</h4></a>
+                <p>Rp.69.000</p>
+            </div>
+            <div class="col-4">
+                <a href="product-detail-kaos3.html"><img src="Image/kaos3-.png"></a>
+                <a href="product-detail-kaos3.html"><h4>FantasyNight T-Shirt Hope Kaos</h4></a>
+                <p>Rp.69.000</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                <a href="product-detail-kaos5.html"><img src="Image/kaos5-.png"></a>
+                <a href="product-detail-kaos5.html"><h4>FantasyNight T-Shirt Rocky Kaos</h4></a>
+                <p>Rp.69.000</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-detail-kaos2.html"><img src="Image/kaos2-.png"></a>
+                    <a href="product-detail-kaos2.html"><h4>FantasyNight T-Shirt Fantasy Night Kaos</h4></a>
+                    <p>Rp.74.900</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-detail-kaos6.html"><img src="Image/kaos6-.png"></a>
+                    <a href="product-detail-kaos6.html"><h4>FantasyNight T-Shirt Beyond The Eyes Kaos</h4></a>
+                    <p>Rp.69.000</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-detail-kaos7.html"><img src="Image/kaos7.png"></a>
+                    <a href="product-detail-kaos7.html"><h4>FantasyNight T-Shirt Hope Kaos</h4></a>
+                    <p>Rp.65.900</p>
+                </div>
+            <div class="row">
+                <div class="col-4">
+                    <a href="product-detail-hoodie1.html"><img src="Image/hoodie hitam.png"></a>
+                    <a href="product-detail-hoodie1.html"><h4>FantasyNight Hoodie FNTSYNGHT Hitam Sweater Jumper</h4></a>
+                    <p>Rp.139.900</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-detail-hoodie2.html"><img src="Image/hoodie putih.png"></a>
+                    <a href="product-detail-hoodie2.html"><h4>FantasyNight Hoodie FNTSYNGHT Putih Sweater Jumper</h4></a>
+                    <p>Rp.139.900</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-detail-hoodie3.html"><img src="Image/hoodie cream.png"></a>
+                    <a href="product-detail-hoodie3.html"><h4>FantasyNight Hoodie FNTSYNGHT Cream Sweater Jumper</h4></a>
+                    <p>Rp.139.900</p>
+                </div>
+                <div class="col-4">
+                    <a href="product-detail-hoodie4.html"><img src="Image/hoodie coklat.png"></a>
+                    <a href="product-detail-hoodie4.html"><h4>FantasyNight Hoodie FNTSYNGHT Coklat Sweater Jumper</h4></a>
+                    <p>Rp.139.900</p>
+                </div>
+             </div>
+
+
+            </div>
+        </div>
+    </div>
+<!-------- footer -------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="Image/logowhitee.png" width="190" height="150">
+                    <p>Our purpose is to make the joy and comfort of dressing sustainably accessible to as many people as possible.</p>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - FantasyNight</p>
+        </div>
+    </div>
+<!--------js for toggle menu-------->
+    <script>
+        var menuitems = document.getElementById("menuitems");
+
+        menuitems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if( menuitems.style.maxHeight = "0px")
+                 {
+                     menuitems.style.maxHeight = "200px";
+                 }
+            else
+                 {
+                     menuitems.style.maxHeight = "0px";
+                 }
+        }
+    </script>
+
+
+
+</body>
+</html>
+    
