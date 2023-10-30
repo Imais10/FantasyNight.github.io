@@ -87,7 +87,7 @@ p{
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
-    background-image: url("Image/ground.png");
+    background-image: url("Image/back.jpg");
 }
 .col-4{
     flex-basis: 25%;
